@@ -37,35 +37,5 @@ export default class Inspector {
       worker.addEventListener('error', (event) => {
         console.error(event);
       });
-      
-      
-     
-    
-    
-    
-    // if (this.data) {
-    //   removeAnim(elemsBoxNewHeader, elemsBoxImg, elemsBoxText, elemsBoxFooter);
-    //   printNews(this.data, elemsBoxNewHeader, elemsBoxImg, elemsBoxText, elemsBoxFooter);
-    // } else {
-    //   addAnim(elemsBoxNewHeader, elemsBoxImg, elemsBoxText, elemsBoxFooter);
-    //   const xhr = new XMLHttpRequest();
-    //   const url = 'http://localhost:7070/?method=getNews';
-    //   xhr.open('GET', url);
-    //   xhr.send();
-    //   xhr.addEventListener('load', () => {
-    //   if (xhr.status >= 200 && xhr.status < 300) {
-    //     try {
-    //       this.data = JSON.parse(xhr.responseText);
-    //       removeAnim(elemsBoxNewHeader, elemsBoxImg, elemsBoxText, elemsBoxFooter);
-    //       printNews(this.data, elemsBoxNewHeader, elemsBoxImg, elemsBoxText, elemsBoxFooter);
-    //     } catch (e) {
-    //       console.error(e);
-    //     }
-    //   } else {
-    //     elemChat.insertAdjacentHTML('beforeend', elemPopup);
-    //     elemChat.classList.toggle('chat__popup');
-    //   }
-    // });
-    // }
   }
 }
